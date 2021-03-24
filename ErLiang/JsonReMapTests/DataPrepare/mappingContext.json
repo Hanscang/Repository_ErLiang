@@ -1,0 +1,68 @@
+[
+  {
+    "SLocation": null,
+    "TLocation": null,
+    "MappingTerms": [
+      {
+        "Source": "Sender",
+        "Target": "myInfo"
+      }
+    ],
+    "Context": [
+      {
+        "SLocation": "NoticeDetail.NoticeContext{}",
+        "TLocation": "myOrder",
+        "MappingTerms": [
+          {
+            "Source": "ReceiptDataVM",
+            "Target": "receiptInfo"
+          }
+        ],
+        "Context": [
+          {
+            "SLocation": "ReceiptDataVM[]",
+            "TLocation": "Arrtest",
+            "MappingTerms": [
+              {
+                "Source": "ID",
+                "Target": "uuid"
+              },
+              {
+                "Source": "nothis",
+                "Target": "nothis"
+              },
+              {
+                "Source": "Code",
+                "Target": "Code"
+              }
+            ],
+            "Context": null 
+          },
+          {
+            "SLocation": "OrderVM{}",
+            "TLocation": "",
+            "MappingTerms": [
+              {
+                "Source": "BasicData",
+                "Target": "BasicData"
+              },
+              {
+                "Source": "bizMechantData",
+                "Target": "bizMechantData"
+              },
+              {
+                "Source": "bizCarDataList",
+                "Target": "aliabizCarDataList"
+              },
+              {
+                "Source": "bizPolicyDataList",
+                "Target": "bizPolicyDataList"
+              }
+            ],
+            "Context": null
+          }
+        ]
+      }
+    ]
+  }
+]

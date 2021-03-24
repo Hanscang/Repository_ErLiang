@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErLiang", "ErLiang\ErLiang.csproj", "{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReMap", "JsonReMap\JsonReMap.csproj", "{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReMapTests", "JsonReMapTests\JsonReMapTests.csproj", "{6AE54AB9-2743-43E1-A645-6AF8C785C503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2ECFA61-653B-44F7-9169-C031587642B9}
+	EndGlobalSection
+EndGlobal
