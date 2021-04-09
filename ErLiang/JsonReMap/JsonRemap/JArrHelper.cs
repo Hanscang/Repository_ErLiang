@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace ErLiang.JsonReMap
 {
 
-    internal class JArrHelper : JsonHelper
+    internal class JArrHelper : JHelper
     {
         public override void AddData(JToken container, JToken target, List<JsonMappingTerm> mappingTerms)
         {
@@ -31,7 +31,7 @@ namespace ErLiang.JsonReMap
             }
         }
 
-        public override void AddChild(JObject target, string name)
+        protected override void AddChild(JObject target, string name)
         {
             if (target == null) return;
 

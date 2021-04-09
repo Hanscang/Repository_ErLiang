@@ -10,7 +10,7 @@ namespace ErLiang.JsonReMap
 {
     internal abstract class JHelper : IJHelper
     {
-        public virtual void AddChild(JObject target, string name)
+        protected virtual void AddChild(JObject target, string name)
         {
             if (target == null) return;
 

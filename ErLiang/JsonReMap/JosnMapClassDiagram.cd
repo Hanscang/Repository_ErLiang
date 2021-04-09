@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Comment CommentText="通过场景 确定数据结构">
+    <Position X="8.195" Y="3.294" Height="0.75" Width="2.637" />
+  </Comment>
+  <Comment CommentText="确定主要流程">
+    <Position X="8.208" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="ErLiang.JsonReMap.JsonMappingTerm">
+    <Position X="8.25" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\model\JsonMappingTerm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.MappingContext">
+    <Position X="8.25" Y="4.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgAAAAIABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\model\MappingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.MappingSymbol">
+    <Position X="13.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAIAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\model\MappingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.ContextHandle">
+    <Position X="8.25" Y="1.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAEAAgAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\ContextHandle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.JArrHelper">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\JArrHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.JHelper">
+    <Position X="3.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAEIAAAAAAAAAAAAAAAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\JHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="ErLiang.JsonReMap.JObjHelper">
+    <Position X="0.75" Y="7.25" Width="2" />
+    <InheritanceLine Type="ErLiang.JsonReMap.JHelper" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="6.241" />
+        <Point X="4.5" Y="6.875" />
+        <Point X="1.688" Y="6.875" />
+        <Point X="1.688" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\JObjHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErLiang.JsonReMap.JsonHelper">
+    <Position X="3.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\JsonHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ErLiang.JsonReMap.IJHelper">
+    <Position X="0.5" Y="1.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>JsonRemap\IJHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

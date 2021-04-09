@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErLiang", "ErLiang\ErLiang.csproj", "{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErLiang", "ErLiang\ErLiang.csproj", "{CFB71BD6-F8A5-465F-9878-EF7A3F7E46E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReMap", "JsonReMap\JsonReMap.csproj", "{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonReMap", "JsonReMap\JsonReMap.csproj", "{7DA6F026-72B1-4DEF-BB1F-25AB235D7A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReMapTests", "JsonReMapTests\JsonReMapTests.csproj", "{6AE54AB9-2743-43E1-A645-6AF8C785C503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonReMapTests", "JsonReMapTests\JsonReMapTests.csproj", "{6AE54AB9-2743-43E1-A645-6AF8C785C503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsole", "MyConsole\MyConsole.csproj", "{72FA5B7F-83DD-429B-9393-D6631129B57D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE54AB9-2743-43E1-A645-6AF8C785C503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FA5B7F-83DD-429B-9393-D6631129B57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FA5B7F-83DD-429B-9393-D6631129B57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FA5B7F-83DD-429B-9393-D6631129B57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FA5B7F-83DD-429B-9393-D6631129B57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
